@@ -11,6 +11,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const Titlevalue = titleInput.value;
         const Contentvalue = contentInput.value;
 
+        if (!Uservalue || !Titlevalue || !Contentvalue) {
+            alert('Please complete all fields in the form.');
+            return; // Stop further execution if any field is empty
+        }
+
         console.log('Username:', Uservalue);
         console.log('Title:', Titlevalue);
         console.log('Content:', Contentvalue);
@@ -32,6 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('backButton').addEventListener('click', function(event) {
         event.preventDefault();
         window.history.back();
-        
     });
+
 });
