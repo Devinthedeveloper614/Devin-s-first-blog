@@ -6,6 +6,9 @@ body.light-mode {
     background-color: #fff; /* White background */
     color: #000; /* Black text */
 }
+.box-3{
+    display: block;
+}
 
 body.light-mode .title {
     width: 50%;

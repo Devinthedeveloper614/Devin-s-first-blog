@@ -74,7 +74,7 @@ body {
     }
     .box-3{
     border-top: 10px double black;
-    display: flex;
+    display: block;
     height: 20px;
     width: 100%;
     }
