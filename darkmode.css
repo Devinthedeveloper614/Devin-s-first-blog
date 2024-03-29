@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    }
+    .title {
+    width: 50%;
+    }
+    .features {
+    width: 100%;
+    }
+    #heading {
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+    }
+    /* Default light mode styles */
+
+    
+    #light {
+    text-align: right;
+    display: block;
+    }
+    #hiddenElement{
+    text-align: right;
+    display: none;
+    }
+    #back {
+    text-align: right;
+    display:block;
+    }
+    h4 {
+        border-bottom: 1px solid black;
+        margin: 20px 0;
+    }
+    header {
+    border-bottom: 10px double black;
+    height: 20%;
+    }
+    
+    .title1{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px; /* Rounded corners */
+    }
+    .title2{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px; /* Rounded corners */
+    }
+    .title3{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(3, 3, 3);
+        border: 2px solid black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px; /* Rounded corners */
+    }
+    .title4{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px; /* Rounded corners */
+    }
+    .box-3{
+    border-top: 10px double black;
+    display: flex;
+    height: 20px;
+    width: 100%;
+    }
+    footer {
+    width: 100%;
+    }
+
+    body {
+        
+        background-color: #545151;
+        color: hsl(250, 94%, 48%);
+        text-decoration: #000;
+    }
+    
+    /* Dark mode styles */
+    .dark-mode {
+        background-color: #060606;
+        color: #fff;
+    }
+    
+    
+    /* Additional styles to make text visible in dark mode */
+    
+    
+    .features button {
+        color: #000; /* Ensure button text is visible in dark mode */
+    }

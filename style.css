@@ -3,6 +3,10 @@ nav {
     display:block;
   
 }
+.box1 {
+  /*nav bar use . not # for class*/
+    border-bottom: 10px double black;
+}
 nav {
   font-size: 24px; /* Adjust the font size as needed */
   transition: background-color 0.5s; /* Smooth transition effect */
@@ -12,10 +16,7 @@ nav:hover {
   background-color: rgba(0, 0, 0, 0.5); /* Darken the background on hover */
   color: white; /* Change text color for better visibility */
 }
-.box1 {
-/*nav bar use . not # for class*/
-  border-bottom: 10px double black;
-}
+
 .box2{
  margin-top: 50px;
  margin-left: 50px;
